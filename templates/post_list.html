@@ -1,0 +1,8 @@
+{% extends "_base.html" %}
+
+{% block content %}
+    {% for taines in publication_list %}
+        <p>{{ taines.text }}</p>   
+    {% endfor %}
+
+{% endblock content %}

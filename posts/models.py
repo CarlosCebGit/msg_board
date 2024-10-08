@@ -1,5 +1,5 @@
 from django.db import models
 
 # Create your models (tablas de la base de datos)
-class publication(models.Model):
+class Publication(models.Model):
     text = models.TextField()
